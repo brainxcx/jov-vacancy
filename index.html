@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainex Inc</title>
+</head>
+<body>
+    <h1>Job Application</h1>
+    <p>Welcome to Brainex Inc.</p>
+    <p>Please kindly fill in your information and position applied for.</p>
+
+    <form action="./brain.php">
+        <input id="first" placeholder="First Name" type="text">
+    <br><br>
+    <input id="last"  placeholder="Last Name" type="text">
+    <br><br>
+    <label for="gende">Gender</label>
+    <br></br>
+    <label for="gende">Male</label>
+    <input id="gende" name="gen" type="radio">
+    <label for="gender">Female</label>
+    <input id="gender" name="gen"  type="radio">
+  
+    <br><br>
+    <label for="birth">Date of Birth</label>
+    <input id="birth"  placeholder="dob" type="date">
+    <br><br>
+    <input id="phone" autocomplete="0803558998" placeholder="Phone Number" type="text">
+    <br><br>
+    <input id="email" autocomplete="email@example.com" placeholder="Email Address" type="text">
+    <br><br>
+    <input id="home" placeholder="Home Address" type="text">
+    <br></br>
+    <label for="degree">Degree type</label>
+    <br>
+    <label for="degree">Msc</label>
+    <input id="degree"  type="checkbox" name="dg">
+    <label for="degre">Bsc</label>
+    <input id="degre" type="checkbox" name="dg" >
+    <label for="degr">HND</label>
+    <input id="degr" type="checkbox" name="dg">
+     <br><br>
+    <input id="cst"  placeholder="Course Study" type="text">
+     <br></br>
+     <select name="cors" id="course">
+        <option value="">Choose Position Applied for</option>
+        <option value="">FrontEnd Developer</option>
+        <option value="">Backend Developer</option>
+        <option value="">Data Scientist</option>
+     </select>
+      <br></br>
+      <label for="cvv">Upload CV</label>
+      <input type="file" name="cv" id="cvv">
+
+      <br><br>
+    <textarea cols="40" rows="10" placeholder="Cover Letter" name="are" id="area"></textarea>
+
+    <br><br>
+    <button type="submit" >Submit</button>
+    </form>
+</body>
+</html>
